@@ -1,0 +1,58 @@
+                                                                        Online Grocery App 
+
+Case Study: 
+Due to covid-19, it's not safe to go outside so for that we 
+are creating an app where you can order all the grocery 
+from the local market. 
+Administrator: 
+As an administrator, I want users to sign up and login to 
+the app so that they are authenticated users. 
+As an administrator, I want to restrict grocery requests to 
+only one active grocery request per user so that users’ one 
+request is fulfilled before they can make another request. 
+
+User (Someone placing order for grocery): 
+As a user, I want to request for grocery of my choice by 
+filling up a form so that I can display the items that I want. 
+As a user, I want to receive a notification if someone has 
+shown interest to send me the grocery so that I know that 
+my request has been responded to. 
+As a user, I want to confirm that I have received a grocery 
+so that the owner knows that items have reached the user. 
+
+Owner:
+As an owner, I want to look at all the active order by 
+different people so that I can read details about the person 
+who requested item. 
+As an owner, I want to send an update to a user that the 
+item is available with us. (interest) 
+As an owner I want to be notified if the user has shown to 
+buy the things, then send item to the user. 
+As an owner, I want to be notified if the user has received 
+the item. 
+
+User workflow (Purchasing) 
+1. The user logs into their account. 
+2. The user sees two tabs - Buy and Sell. 
+3. The user clicks on buy a book. 
+4. If this user has no pending requests - he/she is taken to a 
+page where he/she can request for a item by filling up a 
+form including information like name, age, book which 
+they want to read, reason they want to read etc. 
+5. If this is the first time the user is requesting the book, 
+the user has to enter other details like name, age, grade, 
+school etc. before the request of the user is submitted. 
+6. If this is not the first time, the user can immediately 
+submit the request after confirming that the address is the 
+same. 7. If the user has a pending request, he/she sees the 
+message that his/her earlier request is pending and he/she 
+cannot request another book until someone commits on 
+his/her request or cancels his earlier request. 
+8. Upon submitting the request, the user can see his/her 
+request live on the request page. 
+
+User workflow (Selling) 
+1. The seller logs into their account. 
+2. The seller sees two tabs - Purchase and Sell. 
+3. The seller clicks on Sell to see all the purchasing items. 5. The seller can look at the details of the request and 
+respond to any item by sending the item to the user
